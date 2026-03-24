@@ -1,0 +1,36 @@
+# datasets
+Karabela/
+Qipao/
+Tangzhuang/
+roi_crops/
+classification_samples/
+classification_samples_resnet18/
+classification_samples_yolo11/
+cropped_*/
+augmented_*/
+
+# training outputs
+runs/
+runs_multioutput/
+results/
+*_eval/
+plots/
+
+# model weights
+*.pt
+
+# images
+*.jpg
+*.png
+
+# csv splits
+train_*.csv
+val_*.csv
+test_*.csv
+*_multioutput.csv
+
+# temp files
+*.zip
+*.docx
+.~lock*
+__pycache__/
